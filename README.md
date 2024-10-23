@@ -1,5 +1,7 @@
 # Project: Library Management System
-Description: Design and implement a Java-based library management system. This project will require you to integrate multiple components of Java and programming fundamentals into a cohesive whole. The goal is to create a basic console application that allows users to:
+Description: Design and implement a Java-based library management system. This project will require you to integrate 
+multiple components of Java and programming fundamentals into a cohesive whole.
+The goal is to create a basic console application that allows users to:
 
 Add books to the library
 Borrow and return books
@@ -31,7 +33,8 @@ Returning a book that was not borrowed
 Adding duplicate books with the same ISBN
 Input and Output:
 
-Allow the user to interact with the program through a menu system in the console (e.g., "Press 1 to borrow a book", "Press 2 to return a book").
+Allow the user to interact with the program through a menu system in the console (e.g., "Press 1 to borrow a book", 
+"Press 2 to return a book").
 Use basic file I/O to save and load the state of the library (e.g., books, borrowed status) between program runs.
 Advanced (Optional Challenge):
 
@@ -39,7 +42,11 @@ Implement a simple login system for members, using basic user authentication (us
 Integrate a more complex data structure for faster book lookup, such as a HashMap to store books by ISBN.
 Skills Involved:
 
-OOP Principles: This project will push your understanding of class design, inheritance (if you extend the system to have different types of users or books), and encapsulation.
-File I/O: You’ll get hands-on experience with reading from and writing to files, an essential skill for larger applications.
-Exception Handling: By building a robust system, you’ll develop your skills in catching and handling errors in a clean, user-friendly manner.
-Design Thinking: You’ll need to think about how the different parts of the system interact, a critical skill for larger, more complex applications.
+OOP Principles: This project will push your understanding of class design, inheritance (if you extend the system to have
+different types of users or books), and encapsulation.
+File I/O: You’ll get hands-on experience with reading from and writing to files, an essential skill for larger 
+applications.
+Exception Handling: By building a robust system, you’ll develop your skills in catching and handling errors in a clean, 
+user-friendly manner.
+Design Thinking: You’ll need to think about how the different parts of the system interact, a critical skill for larger, 
+more complex applications.
