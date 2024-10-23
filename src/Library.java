@@ -4,8 +4,8 @@ public class Library extends Book {
         super(name, author, isbn, isCheckedOut);
     }
 
-    public void addBook (Book name, String author, int isbn) {
-
+    public void printLibrary() {
+        System.out.println();
     }
 
     public void printBook(Book book) {
