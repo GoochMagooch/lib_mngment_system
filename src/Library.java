@@ -1,4 +1,9 @@
 public class Library extends Book {
+
+    public Library (String name, String author, int isbn, boolean isCheckedOut) {
+        super(name, author, isbn, isCheckedOut);
+    }
+
     public static void main(String[] args) {
         Book random = new Book("Random", "Random Author", 234, false);
         Book sleepTight = new Book("Sleep Tight", "J.H Markhert", 0, false);
