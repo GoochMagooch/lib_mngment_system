@@ -2,7 +2,7 @@ public class Book {
     String name;
     String author;
     int isbn;
-    boolean isCheckedOut;
+    boolean isCheckedOut = false;
 
     public Book(String name, String author, int isbn, boolean isCheckedOut) {
         this.name = name;
