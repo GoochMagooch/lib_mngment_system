@@ -14,9 +14,9 @@ public class Library extends Book {
         System.out.println("Author: " + this.author);
         System.out.println("Isbn: " + this.isbn);
         if (this.isCheckedOut) {
-            System.out.println("Status: This book is unavailable." );
+            System.out.println("Status: This book is unavailable.");
         } else {
-            System.out.println("Status: This book is available." );
+            System.out.println("Status: This book is available.");
         }
     }
 
