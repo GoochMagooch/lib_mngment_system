@@ -50,3 +50,7 @@ Exception Handling: By building a robust system, you’ll develop your skills in
 user-friendly manner.
 Design Thinking: You’ll need to think about how the different parts of the system interact, a critical skill for larger, 
 more complex applications.
+
+ONE RULE:
+Only the official Java documentation is allowed for reference!
+It will be uncomfortable, it will be challenging. The learning will also be invaluable...
