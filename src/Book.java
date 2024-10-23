@@ -13,6 +13,7 @@ public class Book {
 
     public void bookCheckOut() {
         isCheckedOut = true;
+        System.out.println("Congratulations, you have checked out " + this.name + ", by " + this.author + "!");
     }
 
     public static void main(String[] args) {
