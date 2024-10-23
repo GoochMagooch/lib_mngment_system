@@ -4,6 +4,22 @@ public class Library extends Book {
         super(name, author, isbn, isCheckedOut);
     }
 
+    public void addBook (Book name, String author, int isbn) {
+
+    }
+
+    public void printBook(Book book) {
+        System.out.println("The details of this book are: ");
+        System.out.println("Title: " + this.name);
+        System.out.println("Author: " + this.author);
+        System.out.println("Isbn: " + this.isbn);
+        if (this.isCheckedOut) {
+            System.out.println("Status: This book is unavailable." );
+        } else {
+            System.out.println("Status: This book is available." );
+        }
+    }
+
     public static void main(String[] args) {
         Book random = new Book("Random", "Random Author", 234, false);
         Book sleepTight = new Book("Sleep Tight", "J.H Markhert", 0, false);
